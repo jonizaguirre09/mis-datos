@@ -1,0 +1,33 @@
+[
+    {
+      "id_usuario": "U12345",
+      "nombre": "Juan Pérez",
+      "edad": 78,
+      "ubicacion": "Madrid, España",
+      "tipo_asistencia": "Médica",
+      "fecha_solicitud": "2025-02-28T14:30:00Z",
+      "estado": "Atendida",
+      "tiempo_respuesta": "15 minutos"
+    },
+    {
+      "id_usuario": "U67890",
+      "nombre": "María López",
+      "edad": 82,
+      "ubicacion": "Barcelona, España",
+      "tipo_asistencia": "Emergencia",
+      "fecha_solicitud": "2025-02-28T16:45:00Z",
+      "estado": "Pendiente",
+      "tiempo_respuesta": "-"
+    },
+    {
+      "id_usuario": "U54321",
+      "nombre": "Carlos Rodríguez",
+      "edad": 75,
+      "ubicacion": "Valencia, España",
+      "tipo_asistencia": "Social",
+      "fecha_solicitud": "2025-02-27T10:15:00Z",
+      "estado": "Atendida",
+      "tiempo_respuesta": "30 minutos"
+    }
+]
+
