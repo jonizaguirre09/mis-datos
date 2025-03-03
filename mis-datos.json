@@ -1,33 +1,145 @@
-[
-    {
-      "id_usuario": "U12345",
-      "nombre": "Juan Pérez",
-      "edad": 78,
-      "ubicacion": "Madrid, España",
-      "tipo_asistencia": "Médica",
-      "fecha_solicitud": "2025-02-28T14:30:00Z",
-      "estado": "Atendida",
-      "tiempo_respuesta": "15 minutos"
+{
+  "Resumen": {
+    "Total nacional": {
+      "Población≥65 01/01/2023": 9687776,
+      "Nº personas usuarias atendidas": 1078338,
+      "Índice de Cobertura": 11.13,
+      "Nº Aparatos": 1169539
     },
-    {
-      "id_usuario": "U67890",
-      "nombre": "María López",
-      "edad": 82,
-      "ubicacion": "Barcelona, España",
-      "tipo_asistencia": "Emergencia",
-      "fecha_solicitud": "2025-02-28T16:45:00Z",
-      "estado": "Pendiente",
-      "tiempo_respuesta": "-"
-    },
-    {
-      "id_usuario": "U54321",
-      "nombre": "Carlos Rodríguez",
-      "edad": 75,
-      "ubicacion": "Valencia, España",
-      "tipo_asistencia": "Social",
-      "fecha_solicitud": "2025-02-27T10:15:00Z",
-      "estado": "Atendida",
-      "tiempo_respuesta": "30 minutos"
-    }
-]
-
+    "Comunidades Autónomas": [
+      {
+        "Nombre": "Andalucía",
+        "Población≥65 01/01/2023": 1568040,
+        "Nº personas usuarias atendidas": 253525,
+        "Índice de Cobertura": 16.17,
+        "Nº Aparatos": 264061
+      },
+      {
+        "Nombre": "Aragón",
+        "Población≥65 01/01/2023": 297050,
+        "Nº personas usuarias atendidas": 23388,
+        "Índice de Cobertura": 7.87,
+        "Nº Aparatos": 26860
+      },
+      {
+        "Nombre": "Asturias, Principado de",
+        "Población≥65 01/01/2023": 277185,
+        "Nº personas usuarias atendidas": 8871,
+        "Índice de Cobertura": 3.20,
+        "Nº Aparatos": 8809
+      },
+      {
+        "Nombre": "Balears, Illes",
+        "Población≥65 01/01/2023": 199586,
+        "Nº personas usuarias atendidas": 21416,
+        "Índice de Cobertura": 10.73,
+        "Nº Aparatos": 23090
+      },
+      {
+        "Nombre": "Canarias",
+        "Población≥65 01/01/2023": 386547,
+        "Nº personas usuarias atendidas": 9174,
+        "Índice de Cobertura": 2.37,
+        "Nº Aparatos": 8651
+      },
+      {
+        "Nombre": "Cantabria",
+        "Población≥65 01/01/2023": 138173,
+        "Nº personas usuarias atendidas": 9494,
+        "Índice de Cobertura": 6.87,
+        "Nº Aparatos": 9494
+      },
+      {
+        "Nombre": "Castilla y León",
+        "Población≥65 01/01/2023": 631136,
+        "Nº personas usuarias atendidas": 48591,
+        "Índice de Cobertura": 7.70,
+        "Nº Aparatos": 55758
+      },
+      {
+        "Nombre": "Castilla-La Mancha",
+        "Población≥65 01/01/2023": 404436,
+        "Nº personas usuarias atendidas": 73286,
+        "Índice de Cobertura": 18.12,
+        "Nº Aparatos": 55315
+      },
+      {
+        "Nombre": "Catalunya",
+        "Población≥65 01/01/2023": 1529164,
+        "Nº personas usuarias atendidas": 249765,
+        "Índice de Cobertura": 16.33,
+        "Nº Aparatos": 375193
+      },
+      {
+        "Nombre": "Comunitat Valenciana",
+        "Población≥65 01/01/2023": 1047534,
+        "Nº personas usuarias atendidas": 43999,
+        "Índice de Cobertura": 4.20,
+        "Nº Aparatos": 41479
+      },
+      {
+        "Nombre": "Extremadura",
+        "Población≥65 01/01/2023": 230267,
+        "Nº personas usuarias atendidas": 7793,
+        "Índice de Cobertura": 3.38,
+        "Nº Aparatos": 8000
+      },
+      {
+        "Nombre": "Galicia",
+        "Población≥65 01/01/2023": 710002,
+        "Nº personas usuarias atendidas": 25725,
+        "Índice de Cobertura": 3.62,
+        "Nº Aparatos": 24097
+      },
+      {
+        "Nombre": "Madrid, Comunidad de",
+        "Población≥65 01/01/2023": 1266538,
+        "Nº personas usuarias atendidas": 203619,
+        "Índice de Cobertura": 16.08,
+        "Nº Aparatos": 173121
+      },
+      {
+        "Nombre": "Murcia, Región de",
+        "Población≥65 01/01/2023": 253653,
+        "Nº personas usuarias atendidas": 17025,
+        "Índice de Cobertura": 6.71,
+        "Nº Aparatos": 16151
+      },
+      {
+        "Nombre": "Navarra, C. F. de",
+        "Población≥65 01/01/2023": 137434,
+        "Nº personas usuarias atendidas": 9544,
+        "Índice de Cobertura": 6.94,
+        "Nº Aparatos": 9333
+      },
+      {
+        "Nombre": "País Vasco",
+        "Población≥65 01/01/2023": 520244,
+        "Nº personas usuarias atendidas": 67072,
+        "Índice de Cobertura": 12.89,
+        "Nº Aparatos": 63480
+      },
+      {
+        "Nombre": "La Rioja",
+        "Población≥65 01/01/2023": 70181,
+        "Nº personas usuarias atendidas": 4182,
+        "Índice de Cobertura": 5.96,
+        "Nº Aparatos": 4650
+      },
+      {
+        "Nombre": "Ceuta",
+        "Población≥65 01/01/2023": 10637,
+        "Nº personas usuarias atendidas": 790,
+        "Índice de Cobertura": 7.43,
+        "Nº Aparatos": 708
+      },
+      {
+        "Nombre": "Melilla",
+        "Población≥65 01/01/2023": 9969,
+        "Nº personas usuarias atendidas": 1079,
+        "Índice de Cobertura": 10.82,
+        "Nº Aparatos": 1289
+      }
+    ]
+  }
+}
