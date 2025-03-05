@@ -1,145 +1,686 @@
 {
-  "Resumen": {
-    "Total nacional": {
-      "Población≥65 01/01/2023": 9687776,
-      "Nº personas usuarias atendidas": 1078338,
-      "Índice de Cobertura": 11.13,
-      "Nº Aparatos": 1169539
+  "Total_Nacional": {
+    "Poblacion_65": 9687776,
+    "Personas_Usuarias_Atendidas": 1078338,
+    "Indice_Cobertura": 11.13,
+    "Numero_Aparatos": 1169539,
+    "Personas_Usuarias_65_o_mas": {
+      "Total": 1078338,
+      "Hombres": 274499,
+      "Porcentaje_Hombres": 25.5%,
+      "Mujeres": 803839,
+      "Porcentaje_Mujeres": 74.5%,
     },
-    "Comunidades Autónomas": [
-      {
-        "Nombre": "Andalucía",
-        "Población≥65 01/01/2023": 1568040,
-        "Nº personas usuarias atendidas": 253525,
-        "Índice de Cobertura": 16.17,
-        "Nº Aparatos": 264061
+    "Personas_Usuarias_65_79": {
+      "Total": 333933,
+      "Total_Sobre_65_O_Mas (%): 31.0% "
+      "Hombres": 85696,
+      "Porcentaje_Hombres": 25.7%,
+      "Mujeres": 248237,
+      "Porcentaje_Mujeres": 74.3%,
+    },
+    "Personas_Usuarias_80_mas": {
+      "Total": 744405,
+      "Total_Sobre_65_O_Mas (%): 69.0% "
+      "Hombres": 188803,
+      "Porcentaje_Hombres": 25.4%,
+      "Mujeres": 555602,
+      "Porcentaje_Mujeres": 74.6%,
+    },
+    "Precio_Servicio": {
+      "Precio": "175,26 €",
+      "Aportacion_Usuario": "37,25 €",
+      "Porcentaje_Sobre_Precio": "21,3%"
+    }
+  },
+  "Comunidades_Autonomas": {
+    "Andalucia": {
+      "Poblacion_65": 1568040,
+      "Personas_Usuarias_Atendidas": 253525,
+      "Indice_Cobertura": 16.17,
+      "Numero_Aparatos": 264061,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 253525,
+        "Hombres": 52901,
+        "Porcentaje_Hombres": 20.9%,
+        "Mujeres": 200624,
+        "Porcentaje_Mujeres": 79.1%,
       },
-      {
-        "Nombre": "Aragón",
-        "Población≥65 01/01/2023": 297050,
-        "Nº personas usuarias atendidas": 23388,
-        "Índice de Cobertura": 7.87,
-        "Nº Aparatos": 26860
+      "Personas_Usuarias_65_79": {
+        "Total": 72431,
+	"Total_Sobre_65_O_Mas (%): 28.6% ",
+        "Hombres": 13978,
+        "Porcentaje_Hombres": 19.3%,
+        "Mujeres": 58453,
+        "Porcentaje_Mujeres": 80.7%,
       },
-      {
-        "Nombre": "Asturias, Principado de",
-        "Población≥65 01/01/2023": 277185,
-        "Nº personas usuarias atendidas": 8871,
-        "Índice de Cobertura": 3.20,
-        "Nº Aparatos": 8809
+      "Personas_Usuarias_80_mas": {
+        "Total": 181094,
+	"Total_Sobre_65_O_Mas (%): 71.4% ",
+        "Hombres": 38923,
+        "Porcentaje_Hombres": 21.5%,
+        "Mujeres": 142171,
+        "Porcentaje_Mujeres": 78.5%,
       },
-      {
-        "Nombre": "Balears, Illes",
-        "Población≥65 01/01/2023": 199586,
-        "Nº personas usuarias atendidas": 21416,
-        "Índice de Cobertura": 10.73,
-        "Nº Aparatos": 23090
-      },
-      {
-        "Nombre": "Canarias",
-        "Población≥65 01/01/2023": 386547,
-        "Nº personas usuarias atendidas": 9174,
-        "Índice de Cobertura": 2.37,
-        "Nº Aparatos": 8651
-      },
-      {
-        "Nombre": "Cantabria",
-        "Población≥65 01/01/2023": 138173,
-        "Nº personas usuarias atendidas": 9494,
-        "Índice de Cobertura": 6.87,
-        "Nº Aparatos": 9494
-      },
-      {
-        "Nombre": "Castilla y León",
-        "Población≥65 01/01/2023": 631136,
-        "Nº personas usuarias atendidas": 48591,
-        "Índice de Cobertura": 7.70,
-        "Nº Aparatos": 55758
-      },
-      {
-        "Nombre": "Castilla-La Mancha",
-        "Población≥65 01/01/2023": 404436,
-        "Nº personas usuarias atendidas": 73286,
-        "Índice de Cobertura": 18.12,
-        "Nº Aparatos": 55315
-      },
-      {
-        "Nombre": "Catalunya",
-        "Población≥65 01/01/2023": 1529164,
-        "Nº personas usuarias atendidas": 249765,
-        "Índice de Cobertura": 16.33,
-        "Nº Aparatos": 375193
-      },
-      {
-        "Nombre": "Comunitat Valenciana",
-        "Población≥65 01/01/2023": 1047534,
-        "Nº personas usuarias atendidas": 43999,
-        "Índice de Cobertura": 4.20,
-        "Nº Aparatos": 41479
-      },
-      {
-        "Nombre": "Extremadura",
-        "Población≥65 01/01/2023": 230267,
-        "Nº personas usuarias atendidas": 7793,
-        "Índice de Cobertura": 3.38,
-        "Nº Aparatos": 8000
-      },
-      {
-        "Nombre": "Galicia",
-        "Población≥65 01/01/2023": 710002,
-        "Nº personas usuarias atendidas": 25725,
-        "Índice de Cobertura": 3.62,
-        "Nº Aparatos": 24097
-      },
-      {
-        "Nombre": "Madrid, Comunidad de",
-        "Población≥65 01/01/2023": 1266538,
-        "Nº personas usuarias atendidas": 203619,
-        "Índice de Cobertura": 16.08,
-        "Nº Aparatos": 173121
-      },
-      {
-        "Nombre": "Murcia, Región de",
-        "Población≥65 01/01/2023": 253653,
-        "Nº personas usuarias atendidas": 17025,
-        "Índice de Cobertura": 6.71,
-        "Nº Aparatos": 16151
-      },
-      {
-        "Nombre": "Navarra, C. F. de",
-        "Población≥65 01/01/2023": 137434,
-        "Nº personas usuarias atendidas": 9544,
-        "Índice de Cobertura": 6.94,
-        "Nº Aparatos": 9333
-      },
-      {
-        "Nombre": "País Vasco",
-        "Población≥65 01/01/2023": 520244,
-        "Nº personas usuarias atendidas": 67072,
-        "Índice de Cobertura": 12.89,
-        "Nº Aparatos": 63480
-      },
-      {
-        "Nombre": "La Rioja",
-        "Población≥65 01/01/2023": 70181,
-        "Nº personas usuarias atendidas": 4182,
-        "Índice de Cobertura": 5.96,
-        "Nº Aparatos": 4650
-      },
-      {
-        "Nombre": "Ceuta",
-        "Población≥65 01/01/2023": 10637,
-        "Nº personas usuarias atendidas": 790,
-        "Índice de Cobertura": 7.43,
-        "Nº Aparatos": 708
-      },
-      {
-        "Nombre": "Melilla",
-        "Población≥65 01/01/2023": 9969,
-        "Nº personas usuarias atendidas": 1079,
-        "Índice de Cobertura": 10.82,
-        "Nº Aparatos": 1289
+      "Precio_Servicio": {
+        "Precio": "216.00 €",
+        "Aportacion_Usuario": "24.69 €",
+        "Porcentaje_Sobre_Precio": "11.4%"
       }
-    ]
+    },
+    "Aragon": {
+      "Poblacion_65": 297050,
+      "Personas_Usuarias_Atendidas": 23388,
+      "Indice_Cobertura": 7.87,
+      "Numero_Aparatos": 26860,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 23388,
+        "Hombres": 5374,
+        "Porcentaje_Hombres": 23.0%,
+        "Mujeres": 18014,
+        "Porcentaje_Mujeres": 77.0%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 5822,
+	"Total_Sobre_65_O_Mas (%): 24.9% ",
+        "Hombres": 1411,
+        "Porcentaje_Hombres": 24.2%,
+        "Mujeres": 4411,
+        "Porcentaje_Mujeres": 75.8%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 17566,
+	"Total_Sobre_65_O_Mas (%): 75.1% ",
+        "Hombres": 3963,
+        "Porcentaje_Hombres": 22.6%,
+        "Mujeres": 13603,
+        "Porcentaje_Mujeres": 77.4%,
+      },
+      "Precio_Servicio": {
+        "Precio": "111.20 €",
+        "Aportacion_Usuario": "16.14 €",
+        "Porcentaje_Sobre_Precio": "12.7%"
+      }
+
+    },
+    "Asturias": {
+      "Poblacion_65": 277185,
+      "Personas_Usuarias_Atendidas": 8871,
+      "Indice_Cobertura": 3.2,
+      "Numero_Aparatos": 8809,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 8871,
+        "Hombres": 1465,
+        "Porcentaje_Hombres": 16.5%,
+        "Mujeres": 7406,
+        "Porcentaje_Mujeres": 83.5%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 1411,
+	"Total_Sobre_65_O_Mas (%): 15.9% ",
+        "Hombres": 324,
+        "Porcentaje_Hombres": 23.0%,
+        "Mujeres": 1087,
+        "Porcentaje_Mujeres": 77.0%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 7460,
+	"Total_Sobre_65_O_Mas (%): 84.1% ",
+        "Hombres": 1141,
+        "Porcentaje_Hombres": 15.3%,
+        "Mujeres": 6319,
+        "Porcentaje_Mujeres": 84.7%,
+      },
+      "Precio_Servicio": {
+        "Precio": "172,55 €",
+        "Aportacion_Usuario": "77,98 €",
+        "Porcentaje_Sobre_Precio": "45,2%"
+      }
+    },
+    "Baleares": {
+      "Poblacion_65": 199586,
+      "Personas_Usuarias_Atendidas": 21416,
+      "Indice_Cobertura": 10.73,
+      "Numero_Aparatos": 23090,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 21416,
+        "Hombres": 5946,
+        "Porcentaje_Hombres": 27.8%,
+        "Mujeres": 15470,
+        "Porcentaje_Mujeres": 72.2%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 5588,
+	"Total_Sobre_65_O_Mas (%): 26.1% ",
+        "Hombres": 1940,
+        "Porcentaje_Hombres": 34.7%,
+        "Mujeres": 3648,
+        "Porcentaje_Mujeres": 65.3%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 15828,
+	"Total_Sobre_65_O_Mas (%): 73.9% ",
+        "Hombres": 4006,
+        "Porcentaje_Hombres": 25.3%,
+        "Mujeres": 11822,
+        "Porcentaje_Mujeres": 74.7%,
+      },
+      "Precio_Servicio": {
+        "Precio": "179.63 €",
+        "Aportacion_Usuario": "17.29 €",
+        "Porcentaje_Sobre_Precio": "9.6%"
+      }
+    },
+    "Canarias": {
+      "Poblacion_65": 386547,
+      "Personas_Usuarias_Atendidas": 9174,
+      "Indice_Cobertura": 2.37,
+      "Numero_Aparatos": 8651,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 9174,
+        "Hombres": 1937,
+        "Porcentaje_Hombres": 21.1%,
+        "Mujeres": 7237,
+        "Porcentaje_Mujeres": 78.9%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 1886,
+	"Total_Sobre_65_O_Mas (%): 20.6% ",
+        "Hombres": 506,
+        "Porcentaje_Hombres": 26.8%,
+        "Mujeres": 1380,
+        "Porcentaje_Mujeres": 73.2%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 7288,
+	"Total_Sobre_65_O_Mas (%): 79.4% ",
+        "Hombres": 1431,
+        "Porcentaje_Hombres": 19.6%,
+        "Mujeres": 5857,
+        "Porcentaje_Mujeres": 80.4%,
+      },
+      "Precio_Servicio": {
+        "Precio": "281.40 €",
+        "Aportacion_Usuario": "23.45 €",
+        "Porcentaje_Sobre_Precio": "8.3%"
+      }
+    },
+    "Cantabria": {
+      "Poblacion_65": 138173,
+      "Personas_Usuarias_Atendidas": 9494,
+      "Indice_Cobertura": 6.87,
+      "Numero_Aparatos": 9449,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 9494,
+        "Hombres": 2559,
+        "Porcentaje_Hombres": 27.0%,
+        "Mujeres": 6935,
+        "Porcentaje_Mujeres": 73.0%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 2205,
+	"Total_Sobre_65_O_Mas (%): 23.2% ",
+        "Hombres": 797,
+        "Porcentaje_Hombres": 36.1%,
+        "Mujeres": 1408,
+        "Porcentaje_Mujeres": 63.9%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 7289,
+	"Total_Sobre_65_O_Mas (%): 76.8% ",
+        "Hombres": 1762,
+        "Porcentaje_Hombres": 24.2%,
+        "Mujeres": 5527,
+        "Porcentaje_Mujeres": 75.8%,
+      },
+
+      "Precio_Servicio": {
+        "Precio": "319.00 €",
+        "Aportacion_Usuario": "0.00 €",
+        "Porcentaje_Sobre_Precio": "0.0%"
+      }
+    },
+    "Castilla y León": {
+      "Poblacion_65": 631136,
+      "Personas_Usuarias_Atendidas": 48591,
+      "Indice_Cobertura": 7.7,
+      "Numero_Aparatos": 55758,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 48591,
+        "Hombres": 13257,
+        "Porcentaje_Hombres": 27.3%,
+        "Mujeres": 35334,
+        "Porcentaje_Mujeres": 72.7%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 8305,
+	"Total_Sobre_65_O_Mas (%): 17.1% ",
+        "Hombres": 2449,
+        "Porcentaje_Hombres": 29.5%,
+        "Mujeres": 5956,
+        "Porcentaje_Mujeres": 70.5%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 40286,
+	"Total_Sobre_65_O_Mas (%): 82.9% ",
+        "Hombres": 10808,
+        "Porcentaje_Hombres": 26.8%,
+        "Mujeres": 29478,
+        "Porcentaje_Mujeres": 73.2%,
+      },
+      "Precio_Servicio": {
+        "Precio": "245.04 €",
+        "Aportacion_Usuario": "0.00 €",
+        "Porcentaje_Sobre_Precio": "0.0%"
+      }
+    },
+    "Castilla-La Mancha": {
+      "Poblacion_65": 404436,
+      "Personas_Usuarias_Atendidas": 73286,
+      "Indice_Cobertura": 18.12,
+      "Numero_Aparatos": 55315,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 73286,
+        "Hombres": 22833,
+        "Porcentaje_Hombres": 31.2%,
+        "Mujeres": 50453,
+        "Porcentaje_Mujeres": 68.8%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 18851,
+	"Total_Sobre_65_O_Mas (%): 25.7% ",
+        "Hombres": 5461,
+        "Porcentaje_Hombres": 29.0%,
+        "Mujeres": 13390,
+        "Porcentaje_Mujeres": 71.0%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 54435,
+	"Total_Sobre_65_O_Mas (%): 74.3% ",
+        "Hombres": 17372,
+        "Porcentaje_Hombres": 31.9%,
+        "Mujeres": 37063,
+        "Porcentaje_Mujeres": 68.1%,
+      },
+      "Precio_Servicio": {
+        "Precio": "122.40 €",
+        "Aportacion_Usuario": "0.00 €",
+        "Porcentaje_Sobre_Precio": "0.0%"
+      }
+    },
+    "Catalunya": {
+      "Poblacion_65": 1529164,
+      "Personas_Usuarias_Atendidas": 249765,
+      "Indice_Cobertura": 16.33,
+      "Numero_Aparatos": 375193,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 249765,
+        "Hombres": 71859,
+        "Porcentaje_Hombres": 28.8%,
+        "Mujeres": 177906,
+        "Porcentaje_Mujeres": 71.2%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 128561,
+	"Total_Sobre_65_O_Mas (%): 51.5% ",
+        "Hombres": 35981,
+        "Porcentaje_Hombres": 28.0%,
+        "Mujeres": 92580,
+        "Porcentaje_Mujeres": 72.0%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 121204,
+	"Total_Sobre_65_O_Mas (%): 48.5% ",
+        "Hombres": 35878,
+        "Porcentaje_Hombres": 29.6%,
+        "Mujeres": 85326,
+        "Porcentaje_Mujeres": 70.4%,
+      },
+      "Precio_Servicio": {
+        "Precio": "125.60 €",
+        "Aportacion_Usuario": "69.40 €",
+        "Porcentaje_Sobre_Precio": "55.3%"
+      }
+    },
+    "Comunitat Valenciana": {
+      "Poblacion_65": 1047534,
+      "Personas_Usuarias_Atendidas": 43999,
+      "Indice_Cobertura": 4.2,
+      "Numero_Aparatos": 41479,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 43999,
+        "Hombres": 10579,
+        "Porcentaje_Hombres": 24.0%,
+        "Mujeres": 33420,
+        "Porcentaje_Mujeres": 76.0%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 11912,
+	"Total_Sobre_65_O_Mas (%): 27.1% ",
+        "Hombres": 3337,
+        "Porcentaje_Hombres": 28.0%,
+        "Mujeres": 8575,
+        "Porcentaje_Mujeres": 72.0%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 32087,
+	"Total_Sobre_65_O_Mas (%): 72.9% ",
+        "Hombres": 7242,
+        "Porcentaje_Hombres": 22.6%,
+        "Mujeres": 24845,
+        "Porcentaje_Mujeres": 77.4%,
+      },
+      "Precio_Servicio": {
+        "Precio": "183.54 €",
+        "Aportacion_Usuario": "0.0 €",
+        "Porcentaje_Sobre_Precio": "0.0%"
+      }
+    },
+    "Extremadura": {
+      "Poblacion_65": 230267,
+      "Personas_Usuarias_Atendidas": 7793,
+      "Indice_Cobertura": 3.38,
+      "Numero_Aparatos": 8000,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 7793,
+        "Hombres": 2113,
+        "Porcentaje_Hombres": 27.1%,
+        "Mujeres": 5680,
+        "Porcentaje_Mujeres": 72.9%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 1776,
+	"Total_Sobre_65_O_Mas (%): 22.8% ",
+        "Hombres": 465,
+        "Porcentaje_Hombres": 26.2%,
+        "Mujeres": 1311,
+        "Porcentaje_Mujeres": 73.8%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 6017,
+	"Total_Sobre_65_O_Mas (%): 77.2% ",
+        "Hombres": 1648,
+        "Porcentaje_Hombres": 27.4%,
+        "Mujeres": 4369,
+        "Porcentaje_Mujeres": 72.6%,
+      },
+      "Precio_Servicio": {
+        "Precio": "246.00 €",
+        "Aportacion_Usuario": "0.0 €",
+        "Porcentaje_Sobre_Precio": "0.0%"
+      }
+    },
+    "Galicia": {
+      "Poblacion_65": 710002,
+      "Personas_Usuarias_Atendidas": 25725,
+      "Indice_Cobertura": 3.62,
+      "Numero_Aparatos": 24097,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 25725,
+        "Hombres": 4923,
+        "Porcentaje_Hombres": 19.1%,
+        "Mujeres": 20802,
+        "Porcentaje_Mujeres": 80.9%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 5106,
+	"Total_Sobre_65_O_Mas (%): 19.8% ",
+        "Hombres": 1159,
+        "Porcentaje_Hombres": 22.7%,
+        "Mujeres": 3947,
+        "Porcentaje_Mujeres": 77.3%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 20619,
+	"Total_Sobre_65_O_Mas (%): 80.2% ",
+        "Hombres": 3764,
+        "Porcentaje_Hombres": 18.3%,
+        "Mujeres": 16855,
+        "Porcentaje_Mujeres": 81.7%,
+      },
+      "Precio_Servicio": {
+        "Precio": "225.29 €",
+        "Aportacion_Usuario": "6.37 €",
+        "Porcentaje_Sobre_Precio": "2.8%"
+      }
+    },
+    "Madrid, Comunidad de": {
+      "Poblacion_65": 1266538,
+      "Personas_Usuarias_Atendidas": 203619,
+      "Indice_Cobertura": 16.08,
+      "Numero_Aparatos": 173121,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 203619,
+        "Hombres": 55494,
+        "Porcentaje_Hombres": 27.3%,
+        "Mujeres": 148125,
+        "Porcentaje_Mujeres": 72.7%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 46483,
+	"Total_Sobre_65_O_Mas (%): 22.8% ",
+        "Hombres": 12103,
+        "Porcentaje_Hombres": 26.0%,
+        "Mujeres": 34380,
+        "Porcentaje_Mujeres": 74.0%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 157136,
+	"Total_Sobre_65_O_Mas (%): 77.2% ",
+        "Hombres": 43391,
+        "Porcentaje_Hombres": 27.6%,
+        "Mujeres": 113745,
+        "Porcentaje_Mujeres": 72.4%,
+      },
+      "Precio_Servicio": {
+        "Precio": "185.32 €",
+        "Aportacion_Usuario": "48.48 €",
+        "Porcentaje_Sobre_Precio": "26.2%"
+      }
+    },
+    "Murcia": {
+      "Poblacion_65": 253653,
+      "Personas_Usuarias_Atendidas": 17025,
+      "Indice_Cobertura": 6.71,
+      "Numero_Aparatos": 16151,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 17025,
+        "Hombres": 55494,
+        "Porcentaje_Hombres": 22.5%,
+        "Mujeres": 13191,
+        "Porcentaje_Mujeres": 77.5%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 6049,
+	"Total_Sobre_65_O_Mas (%): 35.5% ",
+        "Hombres": 1377,
+        "Porcentaje_Hombres": 22.8%,
+        "Mujeres": 4672,
+        "Porcentaje_Mujeres": 77.2%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 10976,
+	"Total_Sobre_65_O_Mas (%): 64.5% ",
+        "Hombres": 2457,
+        "Porcentaje_Hombres": 22.4%,
+        "Mujeres": 8519,
+        "Porcentaje_Mujeres": 77.6%,
+      },
+      "Precio_Servicio": {
+        "Precio": "169.11 €",
+        "Aportacion_Usuario": "75.21 €",
+        "Porcentaje_Sobre_Precio": "44.5%"
+      }
+    },
+    "Navarra": {
+      "Poblacion_65": 137434,
+      "Personas_Usuarias_Atendidas": 9544,
+      "Indice_Cobertura": 6.94,
+      "Numero_Aparatos": 9333,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 9544,
+        "Hombres": 2184,
+        "Porcentaje_Hombres": 22.9%,
+        "Mujeres": 7360,
+        "Porcentaje_Mujeres": 77.1%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 1936,
+	"Total_Sobre_65_O_Mas (%): 20.3% ",
+        "Hombres": 502,
+        "Porcentaje_Hombres": 25.9%,
+        "Mujeres": 1434,
+        "Porcentaje_Mujeres": 74.1%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 7608,
+	"Total_Sobre_65_O_Mas (%): 79.7% ",
+        "Hombres": 1682,
+        "Porcentaje_Hombres": 22.1%,
+        "Mujeres": 5926,
+        "Porcentaje_Mujeres": 77.9%,
+      },
+      "Precio_Servicio": {
+        "Precio": "83.34 €",
+        "Aportacion_Usuario": "60.31 €",
+        "Porcentaje_Sobre_Precio": "72.4%"
+      }
+    },
+    "País Vasco": {
+      "Poblacion_65": 520244,
+      "Personas_Usuarias_Atendidas": 67072,
+      "Indice_Cobertura": 12.89,
+      "Numero_Aparatos": 63480,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 67072,
+        "Hombres": 15569,
+        "Porcentaje_Hombres": 23.2%,
+        "Mujeres": 51503,
+        "Porcentaje_Mujeres": 76.8%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 14225,
+	"Total_Sobre_65_O_Mas (%): 21.2% ",
+        "Hombres": 3477,
+        "Porcentaje_Hombres": 24.4%,
+        "Mujeres": 10748,
+        "Porcentaje_Mujeres": 75.6%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 52847,
+	"Total_Sobre_65_O_Mas (%): 78.8% ",
+        "Hombres": 12092,
+        "Porcentaje_Hombres": 22.9%,
+        "Mujeres": 40755,
+        "Porcentaje_Mujeres": 77.1%,
+      },
+      "Precio_Servicio": {
+        "Precio": "153.95 €",
+        "Aportacion_Usuario": "45.81 €",
+        "Porcentaje_Sobre_Precio": "29.8%"
+      }
+    },
+    "La Rioja": {
+      "Poblacion_65": 70181,
+      "Personas_Usuarias_Atendidas": 4182,
+      "Indice_Cobertura": 5.96,
+      "Numero_Aparatos": 4650,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 4182,
+        "Hombres": 1236,
+        "Porcentaje_Hombres": 29.6%,
+        "Mujeres": 2946,
+        "Porcentaje_Mujeres": 70.4%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 746,
+	"Total_Sobre_65_O_Mas (%): 18.3% ",
+        "Hombres": 279,
+        "Porcentaje_Hombres": 36.5%,
+        "Mujeres": 485,
+        "Porcentaje_Mujeres": 63.5%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 3418,
+	"Total_Sobre_65_O_Mas (%): 81.7% ",
+        "Hombres": 957,
+        "Porcentaje_Hombres": 28.0%,
+        "Mujeres": 2461,
+        "Porcentaje_Mujeres": 72.0%,
+      },
+      "Precio_Servicio": {
+        "Precio": "163.01 €",
+        "Aportacion_Usuario": "0.0 €",
+        "Porcentaje_Sobre_Precio": "0.0%"
+      }
+    },
+    "Ceuta": {
+      "Poblacion_65": 10637,
+      "Personas_Usuarias_Atendidas": 790,
+      "Indice_Cobertura": 7.43,
+      "Numero_Aparatos": 708,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 790,
+        "Hombres": 204,
+        "Porcentaje_Hombres": 25.8%,
+        "Mujeres": 586,
+        "Porcentaje_Mujeres": 74.2%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 285,
+	"Total_Sobre_65_O_Mas (%): 36.1% ",
+        "Hombres": 72,
+        "Porcentaje_Hombres": 25.3%,
+        "Mujeres": 213,
+        "Porcentaje_Mujeres": 74.7%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 505,
+	"Total_Sobre_65_O_Mas (%): 63.9% ",
+        "Hombres": 132,
+        "Porcentaje_Hombres": 26.1%,
+        "Mujeres": 373,
+        "Porcentaje_Mujeres": 73.9%,
+      },
+      "Precio_Servicio": {
+        "Precio": "104.28 €",
+        "Aportacion_Usuario": "0.0 €",
+        "Porcentaje_Sobre_Precio": "0.0%"
+      }
+    },
+    "Melilla": {
+      "Poblacion_65": 9969,
+      "Personas_Usuarias_Atendidas": 1079,
+      "Indice_Cobertura": 10.82,
+      "Numero_Aparatos": 1289,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 1079,
+        "Hombres": 232,
+        "Porcentaje_Hombres": 21.5%,
+        "Mujeres": 847,
+        "Porcentaje_Mujeres": 78.5%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 337,
+	"Total_Sobre_65_O_Mas (%): 31.2% ",
+        "Hombres": 78,
+        "Porcentaje_Hombres": 23.1%,
+        "Mujeres": 259,
+        "Porcentaje_Mujeres": 76.9%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 742,
+	"Total_Sobre_65_O_Mas (%): 68.8% ",
+        "Hombres": 154,
+        "Porcentaje_Hombres": 20.8%,
+        "Mujeres": 588,
+        "Porcentaje_Mujeres": 79.2%,
+      },
+      "Precio_Servicio": {
+        "Precio": "101.72 €",
+        "Aportacion_Usuario": "0.0 €",
+        "Porcentaje_Sobre_Precio": "0.0%"
+      }
+    }
   }
 }
