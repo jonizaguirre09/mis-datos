@@ -1,0 +1,34 @@
+"Baleares": {
+      "Poblacion_65": 199586,
+      "Personas_Usuarias_Atendidas": 21416,
+      "Indice_Cobertura": 10.73,
+      "Numero_Aparatos": 23090,
+      "Personas_Usuarias_65_o_mas": {
+        "Total": 21416,
+        "Hombres": 5946,
+        "Porcentaje_Hombres": 27.8%,
+        "Mujeres": 15470,
+        "Porcentaje_Mujeres": 72.2%,
+      },
+      "Personas_Usuarias_65_79": {
+        "Total": 5588,
+	"Total_Sobre_65_O_Mas (%): 26.1% ",
+        "Hombres": 1940,
+        "Porcentaje_Hombres": 34.7%,
+        "Mujeres": 3648,
+        "Porcentaje_Mujeres": 65.3%,
+      },
+      "Personas_Usuarias_80_mas": {
+        "Total": 15828,
+	"Total_Sobre_65_O_Mas (%): 73.9% ",
+        "Hombres": 4006,
+        "Porcentaje_Hombres": 25.3%,
+        "Mujeres": 11822,
+        "Porcentaje_Mujeres": 74.7%,
+      },
+      "Precio_Servicio": {
+        "Precio": "179.63 €",
+        "Aportacion_Usuario": "17.29 €",
+        "Porcentaje_Sobre_Precio": "9.6%"
+      }
+    },
